@@ -1,0 +1,6 @@
+07:57:11 **** Incremental Build of configuration Release for project MKL25Z128xxx4_Project ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
+
+07:57:11 Build Finished. 0 errors, 0 warnings. (took 125ms)
+

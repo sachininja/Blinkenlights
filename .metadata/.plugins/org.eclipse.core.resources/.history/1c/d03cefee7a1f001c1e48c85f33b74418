@@ -1,0 +1,79 @@
+/*
+ * File Name: HMI.h
+ *
+ *  Created on: Sep 26, 2021
+ *      Author: Sachin Mathad
+ *
+ *Purpose: PES Assignment 3
+ *Description: This file contains LED and touch related function declarations
+ */
+#ifndef HMI_H_
+#define HMI_H_
+
+#include "global_headers.h"
+
+typedef enum{
+	RED = 0,
+	GREEN = 1,
+	BLUE = 2,
+	WHITE = 3
+}t_color;
+
+
+#define RED_LED_SHIFT   (18)	// on port B shift 18
+#define GREEN_LED_SHIFT (19)	// on port B shift 19
+#define BLUE_LED_SHIFT  (1)		// on port D shift 1
+
+/* value for delay during debug mode, debug mode takes time to execute printf hence lesser delay */
+#ifdef DEBUG
+#define MS_DELAY_50  60000
+#else
+/*value of delay during release mode, no overhead of printf */
+#define MS_DELAY_50  100000  // value for delay
+#endif
+
+#define MS_DELAY_3000 (MS_DELAY_100 * 30)
+#define MS_DELAY_2000 (MS_DELAY_100 * 20)
+#define MS_DELAY_1000 (MS_DELAY_100 * 10)
+#define MS_DELAY_500  (MS_DELAY_100 * 5)// value for delay
+#define MS_DELAY_100  (MS_DELAY_50 * 2)  // value for delay
+
+#define LED1_SHIFT (1)	// on port A
+#define LED2_SHIFT (2)	// on port A
+#define SW1_SHIFT (5)	// on port A
+
+#define MASK(x) (1UL << (x))
+
+typedef struct
+{
+	t_color color;
+	unsigned mask1;
+	unsigned mask2;
+
+}t_LED;
+
+typedef enum
+{
+	//DELAY_100 = 1,
+	DELAY_500 = 5,
+	DELAY_1000 = 10,
+	DELAY_2000 = 20,
+	DELAY_3000 = 30
+}t_current_delay;
+
+void blink_led( t_color color, uint32_t ontime, uint32_t offtime);
+void blink_led_off( t_color color);
+void blink_led_on( t_color color);
+void LED_timer_handler(void);
+void led_update(void);
+void color_check(uint32_t touch_val);
+void Test_RGB_Flasher(void);
+void RGB_Init(void);
+
+#define TOUCH_OFFSET 630  // offset value to be subtracted
+#define TOUCH_DATA (TSI0->DATA & 0xFFFF)//macro for extracting the count from data register
+
+int Touch_Scan(void);
+void Touch_Init(void);
+
+#endif/*LED.h */

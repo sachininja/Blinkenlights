@@ -1,0 +1,26 @@
+
+
+
+typedef enum{
+	RED = 0,
+	GREEN = 1,
+	BLUE = 2,
+	WHITE = 3
+}t_color;
+
+
+#define RED_LED_SHIFT   (18)	// on port B
+#define GREEN_LED_SHIFT (19)	// on port B
+#define BLUE_LED_SHIFT  (1)		// on port D
+#define MS_DELAY_500 1280000 // value for delay
+#define MS_DELAY_100 256000  // value for delay
+
+typedef struct
+{
+	t_color color;
+	unsigned mask1;
+	unsigned mask2;
+
+}t_LED;
+
+void blink_led( t_color color, uint32_t ontime, uint32_t offtime);

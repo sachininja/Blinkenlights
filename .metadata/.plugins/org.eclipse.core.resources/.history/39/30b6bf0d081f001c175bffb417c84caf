@@ -1,0 +1,50 @@
+
+
+
+typedef enum{
+	RED = 0,
+	GREEN = 1,
+	BLUE = 2,
+	WHITE = 3
+}t_color;
+
+
+#define RED_LED_SHIFT   (18)	// on port B
+#define GREEN_LED_SHIFT (19)	// on port B
+#define BLUE_LED_SHIFT  (1)		// on port D
+
+#define MS_DELAY_3000 (MS_DELAY_100 * 30)
+#define MS_DELAY_2000 (MS_DELAY_100 * 20)
+#define MS_DELAY_1000 (MS_DELAY_100 * 10)
+#define MS_DELAY_500  (MS_DELAY_100 * 5)// value for delay
+#define MS_DELAY_100  256000  // value for delay
+
+
+typedef struct
+{
+	t_color color;
+	unsigned mask1;
+	unsigned mask2;
+
+}t_LED;
+
+typedef enum
+{
+	DELAY_100 = 0,
+	DELAY_500 = 1,
+	DELAY_1000 = 2,
+	DELAY_2000 = 3,
+	DELAY_3000 = 4
+}current_delay;
+
+typedef struct
+{
+	current_delay required_delay;
+	uint32_t delay_val;
+}t_delay;
+
+void blink_led( t_color color, uint32_t ontime, uint32_t offtime);
+void blink_led_off( t_color color);
+void blink_led_on( t_color color);
+void Flasher(void);
+void led_update(void);

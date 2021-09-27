@@ -1,0 +1,9 @@
+
+
+
+typedef enum{
+	RED = 1,
+	GREEN = 2,
+	BLUE = 3,
+	WHITE = 4
+}t_LED;
