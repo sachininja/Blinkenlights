@@ -14,7 +14,7 @@
  *	Links: https://github.com/alexander-g-dean/ESF/blob/master/NXP/Code/Chapter_2/Source/main.c
  *	Links: https://github.com/alexander-g-dean/ESF/tree/master/NXP/Misc/Touch%20Sense
  *	Links: https://canvas.colorado.edu/courses/75704/files/folder/Lectures
- *	FW v1.1
+ *	FW v1.0
  */
 
 #include "global_headers.h"
