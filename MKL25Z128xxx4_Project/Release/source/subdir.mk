@@ -4,19 +4,22 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../source/Human_Interface.c \
+../source/LED.c \
+../source/TSI.c \
 ../source/main.c \
 ../source/mtb.c \
 ../source/semihost_hardfault.c 
 
 OBJS += \
-./source/Human_Interface.o \
+./source/LED.o \
+./source/TSI.o \
 ./source/main.o \
 ./source/mtb.o \
 ./source/semihost_hardfault.o 
 
 C_DEPS += \
-./source/Human_Interface.d \
+./source/LED.d \
+./source/TSI.d \
 ./source/main.d \
 ./source/mtb.d \
 ./source/semihost_hardfault.d 

@@ -26,15 +26,32 @@ Author: Sachin Mathad<br />
 Tools: MCUXpresso IDE, FRDM-KL25Z Dev board<br />
 
 Headers<br />
-Log.h, HMI.h, global_headers.h<br />
+Log.h, LED.h, TSI.h, global_headers.h<br />
 .C files<br />
 
-Main.c, Human_interface.c<br />
+Main.c, LED.c, TSI.c <br />
 Steps to compile and run<br />
-Pull and download the project. <br />
-Open the project using MCUXpresso IDE. <br />
-Build the project in either release mode or debug mode and flash the build onto the board. <br /> 
+*Clone and download the project. <br />
+*Open the project using MCUXpresso IDE. <br />
+*Build the project in either release mode or debug mode and flash the build onto the board. <br />
+*If the debug logs do not work, try putting the IDE in the Debug mode, build the project, flash the .axf file under the debug<br />
+folder by right click -> Debug As -> PEmicro Probes
 
+Note: The FW uses 2 different delays for the Debug version and Release version. Debug version requires a larger value due to the logging overhead.
+
+Version Control <br />
+FW v1.1 - Peer review release<br />
+ * Implemented the LED driver and Touch Driver.<br />
+ * Implemented LED_Timer_Handler function to provide fixed delay pattern along with color change due to <br />
+   touch response. 
+ 
+FW v2.0 - Final Release<br />
+ *	Update information from v1.1 to v2.0<br />
+ *	Note : No logic changes have been made in this commit.<br />
+ *	1. Modularity changes, TSI and LED functions have been separated into different files.<br />
+ *	2. Changes in the delay function. Addition of Delay_100_MS.<br />
+ *	3. Added default switch case in all switches in LED.c file.<br />
+ *	4. Added an Enum of ON OFF flags in LED.h<br />
 ----------------------------------------------------------------------------------
 Extra credit answers<br />
 Q. What is the address of your main() function?<br />

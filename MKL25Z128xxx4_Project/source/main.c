@@ -14,15 +14,26 @@
  *	Links: https://github.com/alexander-g-dean/ESF/blob/master/NXP/Code/Chapter_2/Source/main.c
  *	Links: https://github.com/alexander-g-dean/ESF/tree/master/NXP/Misc/Touch%20Sense
  *	Links: https://canvas.colorado.edu/courses/75704/files/folder/Lectures
- *	FW v1.1
+ *
+ *	Version Control
+FW v1.1 - Peer review release
+ * Implemented the LED driver and Touch Driver.
+ * Implemented LED_Timer_Handler function to provide fixed delay pattern along with color change due to
+   touch response.
+
+FW v2.0 - Final Release
+ *	Update information from v1.1 to v2.0
+ *	Note : No logic changes have been made in this commit.
+ *	1. Modularity changes, TSI and LED functions have been separated into different files.
+ *	2. Changes in the delay function. Addition of Delay_100_MS.
+ *	3. Added default switch case in all switches in LED.c file.
+ *	4. Added an Enum of ON OFF flags in LED.h
  */
 
+#include "TSI.h"
+#include "LED.h"
 #include "global_headers.h"
 #include "log.h"
-#include "HMI.h"
-
-
-
 
 /*
  * @Brief: Program execution begins

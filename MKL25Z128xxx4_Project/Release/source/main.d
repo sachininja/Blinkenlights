@@ -1,4 +1,5 @@
-source/main.o source/main.d: ../source/main.c ../source/global_headers.h \
+source/main.o source/main.d: ../source/main.c ../source/TSI.h \
+ ../source/global_headers.h \
  F:\Blinkenlights\MKL25Z128xxx4_Project\board/board.h \
  F:\Blinkenlights\MKL25Z128xxx4_Project\board/clock_config.h \
  F:\Blinkenlights\MKL25Z128xxx4_Project\drivers/fsl_common.h \
@@ -15,10 +16,11 @@ source/main.o source/main.d: ../source/main.c ../source/global_headers.h \
  F:\Blinkenlights\MKL25Z128xxx4_Project\drivers/fsl_gpio.h \
  F:\Blinkenlights\MKL25Z128xxx4_Project\board/peripherals.h \
  F:\Blinkenlights\MKL25Z128xxx4_Project\board/pin_mux.h \
- F:\Blinkenlights\MKL25Z128xxx4_Project\board/clock_config.h \
  F:\Blinkenlights\MKL25Z128xxx4_Project\CMSIS/MKL25Z4.h \
  F:\Blinkenlights\MKL25Z128xxx4_Project\utilities/fsl_debug_console.h \
- ../source/log.h ../source/HMI.h
+ ../source/log.h ../source/LED.h
+
+../source/TSI.h:
 
 ../source/global_headers.h:
 
@@ -54,12 +56,10 @@ F:\Blinkenlights\MKL25Z128xxx4_Project\board/peripherals.h:
 
 F:\Blinkenlights\MKL25Z128xxx4_Project\board/pin_mux.h:
 
-F:\Blinkenlights\MKL25Z128xxx4_Project\board/clock_config.h:
-
 F:\Blinkenlights\MKL25Z128xxx4_Project\CMSIS/MKL25Z4.h:
 
 F:\Blinkenlights\MKL25Z128xxx4_Project\utilities/fsl_debug_console.h:
 
 ../source/log.h:
 
-../source/HMI.h:
+../source/LED.h:
