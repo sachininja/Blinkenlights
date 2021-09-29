@@ -14,11 +14,17 @@ Blinkenlights - Uses the capacitive touch of the FRDM-KL25Z to change the LED co
  *	Links: https://github.com/alexander-g-dean/ESF/blob/master/NXP/Code/Chapter_2/Source/main.c
  *	Links: https://github.com/alexander-g-dean/ESF/tree/master/NXP/Misc/Touch%20Sense
  *	Links: https://canvas.colorado.edu/courses/75704/files/folder/Lectures
-<<<<<<< HEAD
- *	FW v2.1
-=======
- *	FW v2.0
->>>>>>> 8139ed333e8ba56d5950f8bafe5215bfc72fa4f6
+
+ FW v2.1 -<br /> 
+ *	Update information from v2.0 to v2.1<br /> 
+ *  Deleted additional test files<br /> 
+ *
+ *
+ FW v2.2 - Final Release<br /> 
+ *	Update information from v2.0 to v2.1<br /> 
+ *  Deleted additional test files<br /> 
+ *  Calibrated delay for release build<br /> 
+ *  Changed logging details, logs only during slider touch, color change and timer start<br /> 
  
 
 
@@ -38,8 +44,8 @@ Steps to compile and run<br />
 *Clone and download the project. <br />
 *Open the project using MCUXpresso IDE. <br />
 *Build the project in either release mode or debug mode and flash the build onto the board. <br />
-*If the debug logs do not work, try putting the IDE in the Debug mode, build the project, flash the .axf file under the debug<br />
-folder by right click -> Debug As -> PEmicro Probes
+*If the debug logs do not work, try putting the IDE in the Debug mode, build the project, flash the debug.launch under the debug<br />
+folder by right click -> Debug As -> Project PE Debug
 
 Note: The FW uses 2 different delays for the Debug version and Release version. Debug version requires a larger value due to the logging overhead.
 
@@ -119,4 +125,5 @@ encoding T2 and any value in the range 0-4095 for encoding T4.The value obtained
  d38:	4770      	bx	lr <br />
 Comment: bx - Branch and exchange intruction set. lr holds the return address to the calling function.The LSB of lr also decides the instruction set to <br />
 follow after the branch. If the lr LSB is 1, it will treat the code at the address as thumb.<br />
+
 
