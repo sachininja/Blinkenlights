@@ -18,11 +18,9 @@ Blinkenlights - Uses the capacitive touch of the FRDM-KL25Z to change the LED co
  FW v2.1 -<br /> 
  *	Update information from v2.0 to v2.1<br /> 
  *  Deleted additional test files<br /> 
- *
- *
+
  FW v2.2 - Final Release<br /> 
- *	Update information from v2.0 to v2.1<br /> 
- *  Deleted additional test files<br /> 
+ *  Update information from v2.0 to v2.1<br /> 
  *  Calibrated delay for release build<br /> 
  *  Changed logging details, logs only during slider touch, color change and timer start<br /> 
  
@@ -56,22 +54,20 @@ FW v1.0 - Peer review release<br />
    touch response. 
  
 FW v2.0 - <br />
- *	Update information from v1.1 to v2.0<br />
- *	Note : No logic changes have been made in this commit.<br />
- *	1. Modularity changes, TSI and LED functions have been separated into different files.<br />
- *	2. Changes in the delay function. Addition of Delay_100_MS.<br />
- *	3. Added default switch case in all switches in LED.c file.<br />
- *	4. Added an Enum of ON OFF flags in LED.h<br />
+ * Update information from v1.1 to v2.0<br />
+ * Note : No logic changes have been made in this commit.<br />
+ * Modularity changes, TSI and LED functions have been separated into different files.<br />
+ * Changes in the delay function. Addition of Delay_100_MS.<br />
+ * Added default switch case in all switches in LED.c file.<br />
+ * Added an Enum of ON OFF flags in LED.h<br />
  
  
 FW v2.1 <br />
- *	Update information from v2.0 to v2.1<br />
+ *  Update information from v2.0 to v2.1<br />
  *  Deleted additional test files<br />
- *
- *  
+  
  FW v2.2 - Final Release<br />
- *	Update information from v2.0 to v2.1<br />
- *  Deleted additional test files<br />
+ *  Update information from v2.1 to v2.1<br />
  *  Calibrated delay for release build<br />
  *  Changed logging details, logs only during slider touch, color change and timer start<br />
  */
