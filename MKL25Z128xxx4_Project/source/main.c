@@ -16,18 +16,22 @@
  *	Links: https://canvas.colorado.edu/courses/75704/files/folder/Lectures
  *
  *	Version Control
-FW v1.1 - Peer review release
+FW v1.0 - Peer review release
  * Implemented the LED driver and Touch Driver.
  * Implemented LED_Timer_Handler function to provide fixed delay pattern along with color change due to
    touch response.
 
-FW v2.0 - Final Release
- *	Update information from v1.1 to v2.0
+FW v2.0
+ *	Update information from v1.0 to v2.0
  *	Note : No logic changes have been made in this commit.
  *	1. Modularity changes, TSI and LED functions have been separated into different files.
  *	2. Changes in the delay function. Addition of Delay_100_MS.
  *	3. Added default switch case in all switches in LED.c file.
  *	4. Added an Enum of ON OFF flags in LED.h
+ *
+FW v2.1 - Final Release
+ *	Update information from v2.0 to v2.1
+ * Deleted some additional test files
  */
 
 #include "TSI.h"

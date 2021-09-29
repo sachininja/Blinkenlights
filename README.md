@@ -14,7 +14,7 @@ Blinkenlights - Uses the capacitive touch of the FRDM-KL25Z to change the LED co
  *	Links: https://github.com/alexander-g-dean/ESF/blob/master/NXP/Code/Chapter_2/Source/main.c
  *	Links: https://github.com/alexander-g-dean/ESF/tree/master/NXP/Misc/Touch%20Sense
  *	Links: https://canvas.colorado.edu/courses/75704/files/folder/Lectures
- *	FW v1.0
+ *	FW v2.1
  
 
 
@@ -45,13 +45,18 @@ FW v1.1 - Peer review release<br />
  * Implemented LED_Timer_Handler function to provide fixed delay pattern along with color change due to <br />
    touch response. 
  
-FW v2.0 - Final Release<br />
+FW v2.0 - <br />
  *	Update information from v1.1 to v2.0<br />
  *	Note : No logic changes have been made in this commit.<br />
  *	1. Modularity changes, TSI and LED functions have been separated into different files.<br />
  *	2. Changes in the delay function. Addition of Delay_100_MS.<br />
  *	3. Added default switch case in all switches in LED.c file.<br />
  *	4. Added an Enum of ON OFF flags in LED.h<br />
+ 
+ 
+ FW v2.1 - Final Release<br />
+ *	Update information from v2.0 to v2.1<br />
+ * Deleted some additional test files<br />
 ----------------------------------------------------------------------------------
 Extra credit answers<br />
 Q. What is the address of your main() function?<br />
