@@ -29,9 +29,14 @@ FW v2.0
  *	3. Added default switch case in all switches in LED.c file.
  *	4. Added an Enum of ON OFF flags in LED.h
  *
-FW v2.1 - Final Release
+FW v2.1 -
  *	Update information from v2.0 to v2.1
- * Deleted some additional test files
+ *  Deleted additional test files
+
+ FW v2.2 - Final Release
+ *	Update information from v2.0 to v2.1
+ *  Calibrated delay for release build
+ *  Changed logging details, logs only during slider touch, color change and timer start
  */
 
 #include "TSI.h"
@@ -54,7 +59,6 @@ int main(void)
 	Touch_Init();
 	Test_RGB_Flasher();
 
-
 	while(1)
 	{
   		LED_timer_handler();
@@ -62,7 +66,6 @@ int main(void)
 		led_update();
 
 		touch_val = Touch_Scan();
-		LOG("Slider Value %d \n\r",touch_val);
 
 		color_check(touch_val);
 

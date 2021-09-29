@@ -1,6 +1,29 @@
-14:07:16 **** Incremental Build of configuration Debug for project MKL25Z128xxx4_Project ****
+17:18:03 **** Incremental Build of configuration Release for project MKL25Z128xxx4_Project ****
 make -r -j4 all 
-make: Nothing to be done for 'all'.
+Building file: ../source/LED.c
+Building file: ../source/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=1 -D__MCUXPRESSO -D__USE_CMSIS -DNDEBUG -D__REDLIB__ -DSDK_DEBUGCONSOLE=0 -I"F:\Blinkenlights\MKL25Z128xxx4_Project\board" -I"F:\Blinkenlights\MKL25Z128xxx4_Project\source" -I"F:\Blinkenlights\MKL25Z128xxx4_Project" -I"F:\Blinkenlights\MKL25Z128xxx4_Project\drivers" -I"F:\Blinkenlights\MKL25Z128xxx4_Project\CMSIS" -I"F:\Blinkenlights\MKL25Z128xxx4_Project\utilities" -I"F:\Blinkenlights\MKL25Z128xxx4_Project\startup" -Os -fno-common -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmacro-prefix-map="../source/"=. -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/LED.d" -MT"source/LED.o" -MT"source/LED.d" -o "source/LED.o" "../source/LED.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=1 -D__MCUXPRESSO -D__USE_CMSIS -DNDEBUG -D__REDLIB__ -DSDK_DEBUGCONSOLE=0 -I"F:\Blinkenlights\MKL25Z128xxx4_Project\board" -I"F:\Blinkenlights\MKL25Z128xxx4_Project\source" -I"F:\Blinkenlights\MKL25Z128xxx4_Project" -I"F:\Blinkenlights\MKL25Z128xxx4_Project\drivers" -I"F:\Blinkenlights\MKL25Z128xxx4_Project\CMSIS" -I"F:\Blinkenlights\MKL25Z128xxx4_Project\utilities" -I"F:\Blinkenlights\MKL25Z128xxx4_Project\startup" -Os -fno-common -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmacro-prefix-map="../source/"=. -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/main.d" -MT"source/main.o" -MT"source/main.d" -o "source/main.o" "../source/main.c"
+Finished building: ../source/main.c
+ 
+Finished building: ../source/LED.c
+ 
+Building target: MKL25Z128xxx4_Project.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="MKL25Z128xxx4_Project.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T MKL25Z128xxx4_Project_Release.ld -o "MKL25Z128xxx4_Project.axf"  ./utilities/fsl_debug_console.o  ./startup/startup_mkl25z4.o  ./source/LED.o ./source/TSI.o ./source/main.o ./source/mtb.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_flash.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_lpsci.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o  ./CMSIS/system_MKL25Z4.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        3732 B       128 KB      2.85%
+            SRAM:        2472 B        16 KB     15.09%
+Finished building target: MKL25Z128xxx4_Project.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "MKL25Z128xxx4_Project.axf"; # arm-none-eabi-objcopy -v -O binary "MKL25Z128xxx4_Project.axf" "MKL25Z128xxx4_Project.bin" ; # checksum -p MKL25Z128xxx4 -d "MKL25Z128xxx4_Project.bin";
+   text	   data	    bss	    dec	    hex	filename
+   3664	     68	   2404	   6136	   17f8	MKL25Z128xxx4_Project.axf
+ 
 
-14:07:16 Build Finished. 0 errors, 0 warnings. (took 136ms)
+17:18:05 Build Finished. 0 errors, 0 warnings. (took 2s.192ms)
 

@@ -2,7 +2,7 @@ LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
 activeLaunchTarget=null\:---
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:New_configuration,org.eclipse.launchbar.core.descriptorType.default\:MKL25Z128xxx4_Project PE Release,org.eclipse.launchbar.core.descriptorType.default\:MKL25Z128xxx4_Project PE Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:New_configuration,org.eclipse.launchbar.core.descriptorType.default\:MKL25Z128xxx4_Project PE Debug,org.eclipse.launchbar.core.descriptorType.default\:MKL25Z128xxx4_Project PE Release
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:New_configuration/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:New_configuration/activeLaunchTarget=null\:---

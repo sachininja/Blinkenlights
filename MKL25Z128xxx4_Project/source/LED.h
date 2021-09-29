@@ -82,10 +82,10 @@ typedef struct
 
 /* value for delay during debug mode, debug mode takes time to execute printf hence lesser delay */
 #ifdef DEBUG
-#define MS_DELAY_50  65000
+#define MS_DELAY_50  119000
 #else
-/*value of delay during release mode, no overhead of printf */
-#define MS_DELAY_50  135000  // value for delay
+/*value of delay during release mode, no overhead of printf log */
+#define MS_DELAY_50  124000  // value for delay
 #endif
 
 /* Value of further delays are calculated from the MS_DELAY_50 */

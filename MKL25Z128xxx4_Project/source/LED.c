@@ -369,6 +369,8 @@ void led_update()
 */
 void color_check(uint32_t touch_val)
 {
+	static uint8_t previous_color = WHITE;
+
 	if(touch_val >= RED_TOUCH_RANGE_LOW && touch_val < RED_TOUCH_RANGE_HIGH)
 	{
 		current_blinking_color = RED;
@@ -385,6 +387,14 @@ void color_check(uint32_t touch_val)
 	else
 	{
 		//do nothing
+	}
+
+	if(previous_color != current_blinking_color)
+	{
+		if((touch_val >= RED_TOUCH_RANGE_LOW) && (touch_val < BLUE_TOUCH_RANGE_HIGH))
+		{
+			LOG("Slider Value %d \n\r",touch_val);
+		}
 	}
 }
 

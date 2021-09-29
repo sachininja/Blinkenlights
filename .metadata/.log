@@ -3532,3 +3532,290 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 13:52:54.545
 !MESSAGE PEMicro continuous memory service session connected on port 10224->49153 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 14:31:40.134
+!MESSAGE SWO session connected on port 10224->49881 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 14:31:40.143
+!MESSAGE PEMicro continuous memory service session connected on port 10224->49882 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 10001 2021-09-29 14:35:22.398
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-29 14:35:29.631
+!MESSAGE Indexed 'MKL25Z128xxx4_Project' (20 sources, 45 headers) in 3.38 sec: 6,289 declarations; 13,680 references; 0 unresolved inclusions; 75 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 14:35:47.698
+!MESSAGE SWO session connected on port 10224->61182 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 14:35:47.715
+!MESSAGE PEMicro continuous memory service session connected on port 10224->61183 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-09-29 14:36:00.508
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@5f545d24): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2021-09-29 14:36:00.508
+!MESSAGE Interrupt failed.
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 14:36:39.842
+!MESSAGE SWO session connected on port 10224->54528 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 14:36:39.859
+!MESSAGE PEMicro continuous memory service session connected on port 10224->54530 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10001 2021-09-29 14:37:59.904
+!MESSAGE Target not available.
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 14:38:06.082
+!MESSAGE SWO session connected on port 10224->49800 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 14:38:06.087
+!MESSAGE PEMicro continuous memory service session connected on port 10224->49801 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2021-09-29 14:38:08.653
+!MESSAGE An error occurred while getting register xpsr
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 10001 2021-09-29 14:38:08.654
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-29 14:39:18.285
+!MESSAGE Indexed 'MKL25Z128xxx4_Project' (20 sources, 45 headers) in 8.69 sec: 6,293 declarations; 14,273 references; 0 unresolved inclusions; 75 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-29 14:39:54.953
+!MESSAGE Indexed 'MKL25Z128xxx4_Project' (20 sources, 45 headers) in 1.35 sec: 6,289 declarations; 13,680 references; 0 unresolved inclusions; 75 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 14:40:20.666
+!MESSAGE SWO session connected on port 10224->55278 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 14:40:21.294
+!MESSAGE PEMicro continuous memory service session connected on port 10224->55279 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 2 0 2021-09-29 14:53:17.715
+!MESSAGE Termi&nate/Disconnect All is not enabled.
+
+To terminate debug sessions, first select a debug session in the Debug View and then select Terminate again.
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 15:18:07.702
+!MESSAGE SWO session connected on port 10224->64732 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 15:18:07.731
+!MESSAGE PEMicro continuous memory service session connected on port 10224->64733 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 10001 2021-09-29 15:21:26.466
+!MESSAGE Connection is shut down
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 15:21:58.014
+!MESSAGE SWO session connected on port 10224->57926 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 15:21:58.019
+!MESSAGE PEMicro continuous memory service session connected on port 10224->57927 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 15:26:38.924
+!MESSAGE PEMicro continuous memory service session connected on port 10224->53846 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 15:26:38.937
+!MESSAGE SWO session connected on port 10224->53845 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 15:34:08.532
+!MESSAGE SWO session connected on port 10224->64654 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 15:34:08.549
+!MESSAGE PEMicro continuous memory service session connected on port 10224->64653 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 15:36:53.526
+!MESSAGE PEMicro continuous memory service session connected on port 10224->62458 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 15:36:53.563
+!MESSAGE SWO session connected on port 10224->62456 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-09-29 15:39:55.380
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.debug.ui.actions.DsfResumeCommand$4$1@34c35492): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2021-09-29 15:39:55.380
+!MESSAGE Connection is shut down
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 15:42:06.167
+!MESSAGE SWO session connected on port 10224->50333 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 15:42:06.182
+!MESSAGE PEMicro continuous memory service session connected on port 10224->50334 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10001 2021-09-29 15:42:07.896
+!MESSAGE Target not available.
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 15:46:31.835
+!MESSAGE PEMicro continuous memory service session connected on port 10224->59642 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 15:46:31.841
+!MESSAGE SWO session connected on port 10224->59641 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10001 2021-09-29 15:46:32.781
+!MESSAGE Target not available.
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:19:11.919
+!MESSAGE SWO session connected on port 10224->59143 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:19:11.937
+!MESSAGE PEMicro continuous memory service session connected on port 10224->59144 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:20:53.367
+!MESSAGE SWO session connected on port 10224->62873 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:20:53.456
+!MESSAGE PEMicro continuous memory service session connected on port 10224->62874 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:28:55.236
+!MESSAGE SWO session connected on port 10224->64168 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:28:55.322
+!MESSAGE PEMicro continuous memory service session connected on port 10224->64169 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:32:17.416
+!MESSAGE SWO session connected on port 10224->53973 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:32:17.497
+!MESSAGE PEMicro continuous memory service session connected on port 10224->53974 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:35:11.235
+!MESSAGE SWO session connected on port 10224->54261 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:35:11.247
+!MESSAGE PEMicro continuous memory service session connected on port 10224->54263 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:37:49.470
+!MESSAGE SWO session connected on port 10224->51457 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:37:49.493
+!MESSAGE PEMicro continuous memory service session connected on port 10224->51458 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:42:37.002
+!MESSAGE PEMicro continuous memory service session connected on port 10224->51162 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:42:37.095
+!MESSAGE SWO session connected on port 10224->51161 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:51:38.750
+!MESSAGE PEMicro continuous memory service session connected on port 10224->52356 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:51:38.782
+!MESSAGE SWO session connected on port 10224->52355 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:54:09.331
+!MESSAGE SWO session connected on port 10224->54291 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:54:09.420
+!MESSAGE PEMicro continuous memory service session connected on port 10224->54292 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 2 0 2021-09-29 16:55:14.693
+!MESSAGE Termi&nate/Disconnect All is not enabled.
+
+To terminate debug sessions, first select a debug session in the Debug View and then select Terminate again.
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:55:43.394
+!MESSAGE SWO session connected on port 10224->56025 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:55:43.411
+!MESSAGE PEMicro continuous memory service session connected on port 10224->56026 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:56:37.778
+!MESSAGE SWO session connected on port 10224->55523 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:56:37.796
+!MESSAGE PEMicro continuous memory service session connected on port 10224->55525 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-09-29 16:57:51.856
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@5e598190): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2021-09-29 16:57:51.872
+!MESSAGE Interrupt failed.
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:59:09.476
+!MESSAGE SWO session connected on port 10224->64757 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 16:59:09.565
+!MESSAGE PEMicro continuous memory service session connected on port 10224->64758 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 17:03:16.618
+!MESSAGE PEMicro continuous memory service session connected on port 10224->59707 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 17:03:16.631
+!MESSAGE SWO session connected on port 10224->59706 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-09-29 17:04:14.213
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@3c6965db): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2021-09-29 17:04:14.213
+!MESSAGE Interrupt failed.
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 17:05:15.551
+!MESSAGE SWO session connected on port 10224->58441 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 17:05:15.553
+!MESSAGE PEMicro continuous memory service session connected on port 10224->58442 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-29 17:06:28.557
+!MESSAGE Indexed 'MKL25Z128xxx4_Project' (20 sources, 46 headers) in 1.75 sec: 6,334 declarations; 14,291 references; 0 unresolved inclusions; 75 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-09-29 17:07:29.345
+!MESSAGE Request monitor: 'Sequence "", result for executing step #0 = Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : The GDB Server was not able to establish a connection to the target processor. Please check your connections and power. Verify that the launch settings in the Debug Configuration are accurate. null' resulted in a cancel status: Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : The GDB Server was not able to establish a connection to the target processor. Please check your connections and power. Verify that the launch settings in the Debug Configuration are accurate. null, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-09-29 17:07:29.357
+!MESSAGE Request monitor: 'Sequence "Initializing debugger services", result for executing step #0 = Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : The GDB Server was not able to establish a connection to the target processor. Please check your connections and power. Verify that the launch settings in the Debug Configuration are accurate. null' resulted in a cancel status: Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : The GDB Server was not able to establish a connection to the target processor. Please check your connections and power. Verify that the launch settings in the Debug Configuration are accurate. null, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-09-29 17:07:29.446
+!MESSAGE Request monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitorWithProgress@5630c8c9): Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : The GDB Server was not able to establish a connection to the target processor. Please check your connections and power. Verify that the launch settings in the Debug Configuration are accurate. null' resulted in a cancel status: Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : The GDB Server was not able to establish a connection to the target processor. Please check your connections and power. Verify that the launch settings in the Debug Configuration are accurate. null, even though the request is not set to cancel.
+
+!ENTRY com.pemicro.debug.gdbjtag.pne 4 5012 2021-09-29 17:07:29.591
+!MESSAGE Error in services launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: PEmicro GDB Launch Failure : The GDB Server was not able to establish a connection to the target processor. Please check your connections and power. Verify that the launch settings in the Debug Configuration are accurate.
+	at org.eclipse.cdt.dsf.concurrent.Sequence.abortExecution(Sequence.java:599)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.access$4(Sequence.java:591)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleErrorOrWarning(Sequence.java:448)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleFailure(RequestMonitor.java:433)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:393)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+!SUBENTRY 1 com.pemicro.debug.gdbjtag.pne 8 1 2021-09-29 17:07:29.635
+!MESSAGE PEmicro GDB Launch Failure : The GDB Server was not able to establish a connection to the target processor. Please check your connections and power. Verify that the launch settings in the Debug Configuration are accurate.
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 17:08:23.545
+!MESSAGE SWO session connected on port 10224->50364 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 17:08:23.546
+!MESSAGE PEMicro continuous memory service session connected on port 10224->50365 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-09-29 17:09:29.617
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@6accfd5d): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2021-09-29 17:09:29.617
+!MESSAGE Interrupt failed.
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 17:11:47.601
+!MESSAGE SWO session connected on port 10224->56279 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 17:11:47.619
+!MESSAGE PEMicro continuous memory service session connected on port 10224->56280 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 17:13:37.532
+!MESSAGE SWO session connected on port 10224->62716 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 17:13:37.552
+!MESSAGE PEMicro continuous memory service session connected on port 10224->62717 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-09-29 17:16:43.871
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@56991ad6): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2021-09-29 17:16:43.872
+!MESSAGE Interrupt failed.
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 17:18:15.786
+!MESSAGE SWO session connected on port 10224->50209 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 1 0 2021-09-29 17:18:16.905
+!MESSAGE PEMicro continuous memory service session connected on port 10224->50210 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-09-29 17:19:03.911
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@72c298a0): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2021-09-29 17:19:03.911
+!MESSAGE Interrupt failed.
