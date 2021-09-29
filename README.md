@@ -14,7 +14,7 @@ Blinkenlights - Uses the capacitive touch of the FRDM-KL25Z to change the LED co
  *	Links: https://github.com/alexander-g-dean/ESF/blob/master/NXP/Code/Chapter_2/Source/main.c
  *	Links: https://github.com/alexander-g-dean/ESF/tree/master/NXP/Misc/Touch%20Sense
  *	Links: https://canvas.colorado.edu/courses/75704/files/folder/Lectures
- *	FW v1.0
+ *	FW v2.0
  
 
 
@@ -40,7 +40,7 @@ folder by right click -> Debug As -> PEmicro Probes
 Note: The FW uses 2 different delays for the Debug version and Release version. Debug version requires a larger value due to the logging overhead.
 
 Version Control <br />
-FW v1.1 - Peer review release<br />
+FW v1.0 - Peer review release<br />
  * Implemented the LED driver and Touch Driver.<br />
  * Implemented LED_Timer_Handler function to provide fixed delay pattern along with color change due to <br />
    touch response. 
